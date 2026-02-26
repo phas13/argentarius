@@ -31,7 +31,14 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **ReAct Architecture**: Does the plan mandate a ReAct loop for agent autonomy and reasoning?
+- [ ] **In-Run Memory**: Is there context preservation implemented for the agent session?
+- [ ] **Tool-Based Extensibility & MCP**: Are tools defined and is MCP considered for integrations?
+- [ ] **Knowledge Grounding (RAG)**: Is knowledge retrieval architected instead of relying entirely on LLM memory?
+- [ ] **Safety-First (Input Guardrails)**: Are inputs validated and sanitized before reaching the agent?
+- [ ] **Human-in-the-Loop (HITL)**: Can the agent request human clarification or authorization for decisions?
+- [ ] **Quality Evaluation**: Is there an evaluation or optimization step before returning the final response?
+- [ ] **Predictable Interfaces**: Are outputs structured predictably (e.g., JSON schemas) for reliable parsing?
 
 ## Project Structure
 

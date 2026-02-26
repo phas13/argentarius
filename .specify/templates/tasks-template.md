@@ -62,12 +62,12 @@ description: "Task list template for feature implementation"
 
 Examples of foundational tasks (adjust based on your project):
 
-- [ ] T004 Setup database schema and migrations framework
-- [ ] T005 [P] Implement authentication/authorization framework
-- [ ] T006 [P] Setup API routing and middleware structure
-- [ ] T007 Create base models/entities that all stories depend on
-- [ ] T008 Configure error handling and logging infrastructure
-- [ ] T009 Setup environment configuration management
+- [ ] T004 Setup database schema and RAG Vector Database (e.g., Chroma, FAISS)
+- [ ] T005 [P] Implement Input Guardrails structure
+- [ ] T006 [P] Setup ReAct core reasoning loop and basic agent memory
+- [ ] T007 Create base structured output schemas (e.g., Pydantic models)
+- [ ] T008 Configure tool bindings and MCP client configurations
+- [ ] T009 Setup environment configuration for LLM APIs (OpenAI, Ollama, etc.)
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
